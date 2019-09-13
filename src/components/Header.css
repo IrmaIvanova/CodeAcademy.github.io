@@ -12,7 +12,7 @@
 .underline:before{
     content:'';
     position: absolute;
-    bottom: 2px;
+    bottom: 10px;
     border-bottom: 26px solid #ffe359;
     width: 222px;
     z-index: -1;

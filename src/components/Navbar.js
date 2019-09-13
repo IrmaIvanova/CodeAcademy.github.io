@@ -8,6 +8,7 @@ import Link from './Link.js';
 const Nav = styled.div`
   background-color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+  font-family: 'Nunito Sans', sans-serif;
 `;
 
 
@@ -37,7 +38,7 @@ const NavRight = styled.div`
   text-align: right;
   padding: 26px 20px;
   display: flex;
-  flex-diraction: space-between;
+  justify-content: space-between;
   align-items: center;
   font-size: 16px;
   font-weight: 700;
