@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import  Logo  from './logo.svg';
+import Search from '../img/search.svg';
 import './Navbar.css';
 import Link from './Link.js';
 
@@ -11,10 +12,11 @@ const Nav = styled.div`
 
 
 const NavHeader = styled.div`
-  max-width: 1010px;
-  padding: 26px 20px;
+  max-width: 1170px;
+
   width: 100%;
   display: flex;
+  flex-direction: space-around;
   align-items: center;
   margin: 0 auto;
 `;
@@ -33,12 +35,28 @@ const NavCenter = styled.div`
 const NavRight = styled.div`
   width: 33.333%;
   text-align: right;
-  svg {
-    margin-right: 20px;
-  }
+  padding: 26px 20px;
+  display: flex;
+  flex-diraction: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
 `;
-const MenuLink = styled.a``;
-function Header() {
+
+const Button = styled.button`
+
+  background-color: #6400e4;
+  border: none;
+  color: #fff;
+  padding: 6px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  width: 106px;
+  height: 38px;
+
+`;
+
+function Navbar() {
   return (
     <Nav>
       <NavHeader>
@@ -50,19 +68,15 @@ function Header() {
         <NavCenter>
 
         </NavCenter>
+        
         <NavRight>
-          <MenuLink href="#">
-
-          </MenuLink>
-          <MenuLink href="#">
-
-          </MenuLink>
-          <MenuLink href="#">
-
-          </MenuLink>
+        <img className="search" src={Search} alt="search"/>
+        <Link link="Log in"/>
+        <Button>Sign up</Button>
         </NavRight>
+
       </NavHeader>
     </Nav>
   );
 }
-export default Header;
+export default Navbar;
