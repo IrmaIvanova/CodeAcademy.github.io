@@ -1,0 +1,17 @@
+buttons    background-color: #6400e4;
+
+underline yellow background: #ffe359;
+
+background violet background: #f0f3ff;
+
+ color: #141c3a;
+font-color: #333;
+tryangle  red border-color: transparent transparent transparent #fd4d3f;
+
+tryangle  yellow border-color: transparent transparent #ffc740;
+
+green border-color: #6aebc0 transparent transparent;
+violet border-color: transparent #ff8ff5 transparent transparent;
+
+
+footer      background-color: #15141f;
