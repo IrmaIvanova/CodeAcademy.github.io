@@ -1,30 +1,53 @@
 import React from 'react';
 import styled from 'styled-components';
 import Link from './Link.js';
-
+import  Logo  from './logo.svg';
+import './Header.css';
 
 const Header = styled.div`
   max-width: 1170px;
-
   height: 120vh;
-  display: flex;
-  flex-direction: space-around;
   align-items: center;
   margin: 0 auto;
-  background-color: pink;
-
 `;
+
 const HeaderLeft = styled.div`
-  width: 33.333%;
-  text-align: left;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
 `;
 
 
+
+const Logotype = styled.h2`
+    color: #6400e4;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+`;
+const Span = styled.span`
+    align-items: center;
+    display: flex;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+`;
+const Title = styled.h1`
+    font-size: 64px;
+    position: relative;
+`;
+
+
+
+const Paragraf = styled.p`
+    font-size: 19px;
+    margin: 0 0 32px;
+`;
+
 const HeaderRight = styled.div`
-  width: 33.333%;
+  width: 50%;
   text-align: right;
   padding: 26px 20px;
   display: flex;
@@ -50,8 +73,15 @@ function LandingHeader() {
   return (
 
       <Header>
+            <Logotype>
+               <img className="logotitle" src={Logo} alt=''/> <Span>/PRO</Span>
+            </Logotype>
+
         <HeaderLeft>
-        <Button>Upgrade Now</Button>
+            <Title>The <span className='underline'>Easiest </span>Way to Learn to Code</Title>
+            <Paragraf> Unlock Codecademy’s premium features and get where you're going, faster.</Paragraf>
+            <Button>Upgrade Now</Button>
+            <Link link="Codeacademy for Bussines"/>
         </HeaderLeft>
 
         

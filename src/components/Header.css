@@ -1,0 +1,19 @@
+.logotitle{
+    height: 45px;
+    width: 200px;
+    padding-right: 5px;
+}
+
+
+.underline{
+    position: relative;
+    z-index: 1;
+}
+.underline:before{
+    content:'';
+    position: absolute;
+    bottom: 2px;
+    border-bottom: 26px solid #ffe359;
+    width: 222px;
+    z-index: -1;
+}
