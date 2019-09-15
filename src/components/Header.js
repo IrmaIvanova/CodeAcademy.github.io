@@ -9,7 +9,7 @@ import HeaderLeftColumn from './HeaderLeft.js';
 
 const Header = styled.div`
   max-width: 1170px;
-  height: 80vh;
+  height: 75vh;
   margin: 0 auto 50px;
   font-family: 'Nunito Sans', sans-serif;
 `;

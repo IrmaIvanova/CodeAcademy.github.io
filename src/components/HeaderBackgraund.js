@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-
 import Mamber1 from '../img/man1.jpg';
 import Mamber3 from '../img/man2.webp';
 import Mamber2 from '../img/woman.webp';
@@ -9,8 +8,9 @@ import './HeaderBackground.css';
 
 const Illustration = styled.div`
     position:absolute;
-    height: 536px;
+    height: 636px;
     width: 1900px;
+    margin-bottom: 100px;
 
 `
 const ImgBox = styled.div`
@@ -25,6 +25,7 @@ const Photo1 = styled.div`
         height: 372px;
         position: relative;
         left: 17px;
+        top: 40px;
     }
 `
 const Photo2 = styled.div`
@@ -33,7 +34,7 @@ const Photo2 = styled.div`
         height: 320px;
         position: absolute;
         left: 152px;
-        top: 144px;
+        top: 184px;
     }
 
 `
@@ -44,8 +45,8 @@ const Photo3 = styled.div`
         width: 465px;
         height: 299px;
         position: absolute;
-        left: 614px;
-        top: 215px;
+        left: 604px;
+        top: 265px;
     }
 `
 const Photo4 = styled.div`
@@ -56,7 +57,7 @@ const Photo4 = styled.div`
         height:300px;
         position: absolute;
         right: 0px;
-        top: 30px;
+        top: 70px;
     }
 `
 
