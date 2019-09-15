@@ -23,6 +23,7 @@ const Title = styled.h1`
     font-weight: 800;
     position: relative;
     font-family: 'Nunito Sans', sans-serif;
+    color: #333;
 `;
 
 

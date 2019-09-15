@@ -1,0 +1,52 @@
+.illistration{
+    background-image: url('../img/shape1.png');
+    z-index: -6;
+}
+
+
+.img1:before{
+        content:"";
+    border-width: 378px 0 0 285px;
+    border-color: transparent transparent transparent #fd4d3f;
+    left: -15px;
+    bottom: -25px;
+    position: absolute;
+    border-style: solid;
+    z-index: -5;
+    }
+
+
+
+    .img2:before{
+        content: "";
+        position: absolute;
+        border-style: solid;
+        border-color: transparent transparent #ffc740;
+        z-index: -5;
+        border-width: 0 0 340px 420px;
+        bottom: -123px;
+        right: 580px;
+    
+    }
+
+    .img3:before{
+        content: "";
+        position: absolute;
+        border-style: solid;
+        z-index: -5;
+        border-width: 303px 443px 0 0;
+        border-color: #6aebc0 transparent transparent;
+        bottom: -110px;
+        left: 584px;
+    }
+    .img4:before{
+        content: "";
+        position: absolute;
+        border-style: solid;
+        z-index: -5;
+        border-width: 0 349px 288px 0;
+        border-color: transparent #ff8ff5 transparent transparent;
+        top: -3px;
+        right: -35px;
+    
+    }

@@ -3,15 +3,15 @@ import styled from 'styled-components';
 import  Logo  from './logo.svg';
 import './Header.css';
 import HeaderRightColumn from './HeaderRight.js';
-import HeaderLeftColumn from './HeaderLeft.js'
+import HeaderLeftColumn from './HeaderLeft.js';
+
 
 
 const Header = styled.div`
   max-width: 1170px;
-  height: 120vh;
-  margin: 0 auto;
+  height: 80vh;
+  margin: 0 auto 50px;
   font-family: 'Nunito Sans', sans-serif;
-
 `;
 const HeaderContent = styled.div`
     display:flex;
@@ -43,6 +43,8 @@ function LandingHeader() {
             <HeaderLeftColumn/>
             <HeaderRightColumn/>
         </HeaderContent>
+
+
       </Header>
 
   );
