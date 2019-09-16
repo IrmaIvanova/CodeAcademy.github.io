@@ -1,0 +1,11 @@
+.Background:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1066px;
+    background: url('../img/shape4.webp') no-repeat bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

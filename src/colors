@@ -18,3 +18,14 @@ footer      background-color: #15141f;
 
 
 
+const Photo1 = styled.div`
+
+
+    img{
+        width: 300px;
+        height: 372px;
+        position: relative;
+        left: 300px;
+    }
+
+`

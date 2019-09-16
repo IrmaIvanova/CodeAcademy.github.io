@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import Navbar from './components/Navbar.js';
 import LandingHeader from './components/Header.js';
 import HeaderBackground from './components/HeaderBackgraund.js';
+import Description from './components/Description.js';
+import YourPerspective from './components/YourPerspective.js';
 const AppWrapper = styled.div`
-  background-color: #fafafa;
+  height: 180vh;
 `;
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <LandingHeader/>
         <HeaderBackground/>
       </AppWrapper>
+      <Description/>
+      <YourPerspective/>
     </Fragment>
   );
 }

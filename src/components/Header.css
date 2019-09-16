@@ -17,3 +17,16 @@
     width: 222px;
     z-index: -1;
 }
+
+.BackImg:after{
+    content: "";
+    height: 67.1875rem;
+    width: 67.1875rem;
+    -webkit-clip-path: circle();
+    clip-path: circle();
+    background: #f0f3ff;
+    position: absolute;
+    top: -41.3125rem;
+    left: calc(66% + 6px);
+    z-index: -1;
+}

@@ -7,6 +7,7 @@ import HeaderLeftColumn from './HeaderLeft.js';
 
 
 
+
 const Header = styled.div`
   max-width: 1170px;
   height: 75vh;
@@ -16,6 +17,8 @@ const Header = styled.div`
 const HeaderContent = styled.div`
     display:flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 `;
 
 const Logotype = styled.h2`
@@ -23,7 +26,8 @@ const Logotype = styled.h2`
     font-size: 23px;
     display: flex;
     align-self: center;
-    font-weight: 400;
+    font-weight: 400;    
+
 `;
 const Span = styled.span`
     align-items: center;
@@ -39,7 +43,7 @@ function LandingHeader() {
             <Logotype>
                <img className="logotitle" src={Logo} alt=''/> <Span>/PRO</Span>
             </Logotype>
-        <HeaderContent>
+        <HeaderContent className="BackImg">
             <HeaderLeftColumn/>
             <HeaderRightColumn/>
         </HeaderContent>
