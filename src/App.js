@@ -5,6 +5,9 @@ import LandingHeader from './components/Header.js';
 import HeaderBackground from './components/HeaderBackgraund.js';
 import Description from './components/Description.js';
 import YourPerspective from './components/YourPerspective.js';
+import WhyItWorks from './components/WhyItWorks.js';
+import AboutPractice from './components/AboutPractice.js';
+
 const AppWrapper = styled.div`
   height: 180vh;
 `;
@@ -19,6 +22,8 @@ function App() {
       </AppWrapper>
       <Description/>
       <YourPerspective/>
+      <WhyItWorks/>
+      <AboutPractice/>
     </Fragment>
   );
 }

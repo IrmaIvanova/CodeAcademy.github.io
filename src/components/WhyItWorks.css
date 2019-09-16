@@ -1,0 +1,46 @@
+.border:before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-color: transparent transparent  #ff8ff5 ;
+    z-index: -5;
+    border-width: 0 0 876px 1350px;
+    bottom: -40px;
+    right: -40px;
+}
+
+.icon1:before{
+    content: "";
+    position: absolute;
+    background-image: url('../img/brackets.svg');
+    width: 36px;
+    height: 38px;
+    top: 0px;
+    left: -54px;
+}
+
+
+.icon3:before{
+    width: 54px;
+    height: 24px;
+    background-image: url('../img/svg/icontrain.svg');
+    top: 7px;
+    left: -72px;
+}
+
+.icon2:before{
+    width: 36px;
+    height: 38px;
+    top: 0px;
+    left: -54px;
+    background-image: url('../img/svg/iconschem.svg');
+
+}
+
+.icon4:before{
+    width: 57px;
+    height: 32px;
+    background-image: url("../img/speedclock.svg");
+    top: 5px;
+    left: -61px;
+}

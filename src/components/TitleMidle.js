@@ -2,13 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 
 const H2 = styled.h2`
-font-size: 48px;
-margin-bottom: 0;
+font-size: 28px;
+margin-bottom: 10px;
 font-family: 'Nunito Sans', sans-serif;
 
 `
 
-class TitleH2 extends React.Component {
+class TitleMidle extends React.Component {
   render(){
     return (
       <div><H2>{this.props.text}</H2></div>
@@ -16,4 +16,4 @@ class TitleH2 extends React.Component {
     );
   }
 }
-export default TitleH2;
+export default TitleMidle;

@@ -10,6 +10,7 @@ const Container = styled.div`
     margin: 0 0 80px;
     position: relative;
     text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
 
 `
 
