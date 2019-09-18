@@ -1,0 +1,21 @@
+.pink:before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    z-index: -1;
+    border-width: 190px 150px;
+    border-color: #ff8ff5;
+    bottom: -50px;
+    left: 200px;
+}
+.green:before{
+    content: "";
+    position: absolute;
+    border-style: solid;
+    z-index: -5;
+    border-width: 503px 543px 0 0;
+    border-color: transparent #6aebc0 transparent;
+    bottom: -50px;
+    right: 15px;
+
+}

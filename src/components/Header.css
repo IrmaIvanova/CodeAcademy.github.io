@@ -20,13 +20,12 @@
 
 .BackImg:after{
     content: "";
-    height: 67.1875rem;
-    width: 67.1875rem;
-    -webkit-clip-path: circle();
-    clip-path: circle();
-    background: #f0f3ff;
+    border-radius: 50%;
+    height: 979px;
+    right: -650px;
     position: absolute;
-    top: -41.3125rem;
-    left: calc(66% + 6px);
+    top: -650px;
+    width: 912px;
+    background: #f0f3ff;
     z-index: -1;
 }

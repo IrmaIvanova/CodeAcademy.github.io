@@ -4,7 +4,7 @@ import './YourPerspective.css';
 import Paragraf from './Paragraf.js';
 import './WhyItWorks.css';
 import GreenDots from '../img/greendots.svg'
-import TitleH2 from './TitleMidle.js'
+import TitleH2 from './TitleH2.js'
 import TitleMidle from './TitleMidle.js'
 
 const Container = styled.div`
@@ -50,7 +50,7 @@ const ReasonWhy = styled.div`
 const SmallBox = styled.div`
     Width:400px;
     text-align: left;
-    margin: 80px 0 0;
+    margin: 40px 0 0;
 `
 const Underline = styled.div`
     border-bottom: 2px solid #000;
@@ -73,16 +73,16 @@ class WhyItWorks extends React.Component{
                         <Paragraf text="Internalize new concepts with additional content and quizzes."/>
                     </SmallBox>
                     <SmallBox>
-                        <Underline className="icon1 icon2"><TitleMidle text="More Than Syntax"/></Underline>
-                        <Paragraf text="Internalize new concepts with additional content and quizzes."/>
+                        <Underline className="icon1 icon2"><TitleMidle text="Learn the Right Language"/></Underline>
+                        <Paragraf text="Paths show you where to start so you won’t waste time learning the wrong thing."/>
                     </SmallBox>
                     <SmallBox>
-                        <Underline className="icon1 icon3"><TitleMidle text="More Than Syntax"/></Underline>
-                        <Paragraf text="Internalize new concepts with additional content and quizzes."/>
+                        <Underline className="icon1 icon3"><TitleMidle text="Boost Your Portfolio"/></Underline>
+                        <Paragraf text="Build projects and get real-world experience."/>
                     </SmallBox>
                     <SmallBox>
-                        <Underline className="icon1 icon4"><TitleMidle text="More Than Syntax"/></Underline>
-                        <Paragraf text="Internalize new concepts with additional content and quizzes."/>
+                        <Underline className="icon1 icon4"><TitleMidle text="More Flexibility"/></Underline>
+                        <Paragraf text="Adjust your learning schedule around family, friends, and your job."/>
                     </SmallBox>
                 </ReasonWhy>
                 

@@ -1,0 +1,14 @@
+.active:hover{
+    background-color: #6400e4;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 0px 9px #00000061;
+
+}
+
+.alwaysActive{
+    background-color: #6400e4;
+    border: none;
+    color: #fff;
+    box-shadow: 0px 0px 9px #00000061;
+    }

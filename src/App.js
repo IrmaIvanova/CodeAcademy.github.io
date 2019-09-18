@@ -7,6 +7,11 @@ import Description from './components/Description.js';
 import YourPerspective from './components/YourPerspective.js';
 import WhyItWorks from './components/WhyItWorks.js';
 import AboutPractice from './components/AboutPractice.js';
+import APathThatWorks from './components/APathThatWorks.js';
+import Illustration from './components/Illustration.js';
+import Price from './components/Price.js';
+import MembersSay from './components/MembersSay.js';
+import PricePlan from './components/PricePlan';
 
 const AppWrapper = styled.div`
   height: 180vh;
@@ -24,6 +29,11 @@ function App() {
       <YourPerspective/>
       <WhyItWorks/>
       <AboutPractice/>
+      <APathThatWorks/>
+      <Illustration/>
+      <Price/>
+      <MembersSay/>
+      <PricePlan/>
     </Fragment>
   );
 }
