@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Cards from './Cards.js';
+import CardRecomended from './CardRecomended.js';
+
 import TitleH2 from './TitleH2.js';
 import './PricePlan.css';
 
@@ -33,9 +35,9 @@ class Price extends React.Component{
                     <Vip className="Recomended"></Vip>
                 <Box >
 
-                <Cards  duration="12 Month Subscription" price="$15.99" text="19.99/mo"></Cards>
-                    <Cards duration="12 Month Subscription" price="$15.99" text="19.99/mo"/>
-                    <Cards duration="12 Month Subscription" price="$15.99" />
+                <CardRecomended  duration="12 Month Subscription" price="$15.99" text="19.99/mo"/>
+                    <Cards duration="12 Month Subscription" price="$17.99" text="19.99/mo"/>
+                    <Cards duration="12 Month Subscription" price="$19.99" />
                 </Box>
 
             </Container>

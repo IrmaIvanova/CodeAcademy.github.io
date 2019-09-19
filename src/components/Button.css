@@ -1,8 +1,6 @@
-.active:hover{
-    background-color: #6400e4;
-    border: none;
-    color: #fff;
-    box-shadow: 0px 0px 9px #00000061;
+.alwaysActive:hover{
+
+    box-shadow: -2px 8px 22px rgba(0,0,0,.15);
 
 }
 
@@ -10,5 +8,18 @@
     background-color: #6400e4;
     border: none;
     color: #fff;
-    box-shadow: 0px 0px 9px #00000061;
+
     }
+
+.active:hover{
+    background-color: #6400e4;
+    border: none;
+    color: #fff;
+    box-shadow: -2px 8px 22px rgba(0,0,0,.15);
+
+
+}
+
+.Yellow:hover{
+    color: #000;
+}

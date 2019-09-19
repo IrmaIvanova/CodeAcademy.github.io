@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Button from './Button.js';
+import Button from './ButtonActive.js';
 import './Cards.css';
 
 const Card = styled.div`
@@ -49,7 +49,7 @@ const NotPrice = styled.p `
 `
 
 
-class Cards extends React.Component{
+class CardRecomended extends React.Component{
     render(){
         return(
             <Card className="hover ">
@@ -66,4 +66,4 @@ class Cards extends React.Component{
 
 }
 
-export default Cards;
+export default CardRecomended;
