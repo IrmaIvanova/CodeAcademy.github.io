@@ -8,7 +8,7 @@ import Twitter from '../img/twitter.png';
 import LinkedIn from '../img/linkedIn.png';
 
 const Footer = styled.div`
-  background-color: #15141F;
+  background-color: #15111f;
   height: 75px;
   padding: 24px 0px 0 0;
   width: 1900px;
