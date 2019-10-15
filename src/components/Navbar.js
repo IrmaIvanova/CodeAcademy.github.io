@@ -31,6 +31,10 @@ const NavLeft = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  img{
+    height: 35px;
+    width: 146px;
+}
 `;
 const NavCenter = styled.div`
   width: 33.333%;
