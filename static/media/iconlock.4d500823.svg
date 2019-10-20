@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="39px" viewBox="0 0 30 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Trial-Upsell-V6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trial-Upsell---Current-Logo" transform="translate(-49.000000, -268.000000)">
+            <g id="Left-Panel">
+                <g id="Value-Props" transform="translate(46.000000, 266.940000)">
+                    <g id="Unlock-Icon" transform="translate(0.000000, 0.837273)">
+                        <g id="lockIcon" transform="translate(0.000000, 0.245455)">
+                            <rect id="background" x="0" y="1" width="36" height="36"></rect>
+                            <g id="lock" transform="translate(4.500000, 0.900000)" stroke="#47CCA0" stroke-width="2.25">
+                                <rect id="Rectangle" x="0" y="11.35" width="27" height="24.75" rx="0.9"></rect>
+                                <path d="M5.625,10.4514738 L5.625,1.12352621 C5.625,0.627283885 6.03015548,0.225 6.51691523,0.225 L20.4830848,0.225 C20.9756759,0.225 21.375,0.634452215 21.375,1.12352621 L21.375,5.45147379" id="Path"></path>
+                                <path d="M13.5,25.4125 L13.5,28.7875" id="Line" stroke-linecap="round"></path>
+                                <circle id="innerCircle" cx="13.5" cy="21.475" r="3.375"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
